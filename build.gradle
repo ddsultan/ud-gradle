@@ -5,3 +5,12 @@ task hello {
         println "Salom Dunyo, dd! I love Choco :)"
     }
 }
+
+task simpleTask {
+    dependsOn "hello"
+    description "'simpleTask' Description"
+    group "simple"
+    doLast {
+        println "hi"
+    }
+}
