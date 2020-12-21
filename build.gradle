@@ -1,0 +1,7 @@
+task hello {
+    description "Hey geeks! Welcome"
+    group "hello"
+    doLast {
+        println "Salom Dunyo, dd! I love Choco :)"
+    }
+}
